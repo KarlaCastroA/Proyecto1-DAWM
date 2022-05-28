@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Portafolio</title>
+    <meta name="Karla Castro Ascencio">
+    
+    <!-- Importar fontawesome para usr iconos-->
+    <link 
+      rel="stylesheet" 
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+      crossorigin="anonymous">
+  </head>
+  
+  <body>
+    
+    <header>
+      <nav class="main_menu">
+        <!-- Opciones x ej, Perfil, Trabajos Realizados, Posts, Contacto-->
+        <ul style="list-style-type: none">
+          <li>Principal</li>
+          <li>Habilidades</li>
+          <li>Trabajos</li>
+          <li>Contacto</li>
+          <li>Sigueme!</li>
+        </ul>  
+      </nav>
+    </header>
+    
+    <main>
+
+      <section id="principal_view">
+        <!-- Principal-->
+
+        <div id="profile_image_container" >
+          <img 
+            id="profile_picture" 
+            src="https://thumbs.dreamstime.com/b/icono-ejecutivo-joven-del-perfil-de-la-mujer-81933191.jpg"
+            height="100px"
+            width="100px"
+            >
+        </div>
+        
+        <div id="profile_info_container">
+          <h1>Karla Castro Ascencio</h1>
+         
+          <p id="about_me">
+            <!-- Presentacion personal
+            Descripcion de mis estudios acctuales o titulo-->
+            Lorem ipsum dolor sit amet consectetur adipiscing elit varius mi torquent malesuada fringilla semper, elementum dapibus fames mus vestibulum volutpat imperdiet platea libero urna nam.
+          </p>
+        </div>
+
+      </section>
+
+      <section id="abilities_view">
+        <!-- Habilidades y conocimientos-->
+        <div id="sections_abilities">
+          <p id="abilities">Habilidades</p>
+          <p id="knowledge">Conocimientos</p>
+        </div>
+        
+        <div id="abilities_table">
+          <table >
+            <tr>
+              <td>
+                <div id="comunication_block">
+                  <i class="fa fa-comments"></i>
+                  <p>Comunicacion</p>
+                </div>
+              </td>
+
+              <td>
+                <div id="responsability_block">
+                  <i class="fa fa-user-check"></i>
+                  <p>Responsabilidad</p>
+                </div>
+              </td>
+
+              <td>
+                <div id="empathy_block">
+                  <i class="fa fa-heart"></i>
+                  <p>Empatia</p>
+                </div>
+              </td>
+
+            </tr>
+            <tr>
+              <td>
+                <div id="team_work_block">
+                  <i class="fas fa-users"></i>
+                  <p>Trabajo en equipo</p>
+                </div>
+              </td>
+
+              <td>
+                <div id="puntuality_block">
+                  <i class="fas fa-clock"></i>
+                  <p>Puntualidad</p>
+                </div>
+              </td>
+
+              <td>
+                <div id="puntuality_block">
+                  <i class="fas fa-child"></i>
+                  <p>Creatividad</p>
+                </div>
+              </td>
+
+            </tr>
+          </table>
+        </div>
+      
+        <div id="knowledge_block">
+          <!-- Conocimientos-->
+          <table id="progress_block">
+            <tr>
+              <td>Python</td>
+              <td>barra1</td>
+              <td>75%</td>
+            </tr>
+
+            <tr>
+              <td>HTML/CSS</td>
+              <td>barra1</td>
+              <td>80%</td>
+            </tr>
+
+            <tr>
+              <td>Javascript</td>
+              <td>barra1</td>
+              <td>25%</td>
+            </tr>
+
+            <tr>
+              <td>Angular</td>
+              <td>barra1</td>
+              <td>50%</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      
+
+      <section>
+        <!-- Contacto -->
+        <div id="contact_section">
+          <p id="contact">Contacto</p>
+        </div>
+
+        <div id="contact_block">
+          <div id="location">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Ubicacion</p>
+            <p>Guayaquil, Ecuador</p>
+          </div>
+
+          <div id="cell">
+            <i class="fas fa-phone"></i>
+            <p>Telefono</p>
+            <p>+593 960 060 406</p>
+          </div>
+
+          <div id="mail">
+            <i class="fas fa-envelope"></i>
+            <p>Correo</p>
+            <p>kcastro948@gmail.com</p>
+          </div>
+        </div>
+
+        <div id="form_map">
+          <div id="form">
+            <form id="formulario">
+              <div>
+                <input type="text" required placeholder="Nombre">
+              </div>
+              <div>
+                <input type="email" required placeholder="Email">
+              </div>
+              <div>
+                <input type="text" required placeholder="Titulo">
+              </div>
+              <div> 
+                <textarea rows="10" col="30" placeholder="Mensaje"></textarea>
+              </div>
+              <div><button> Enviar </button></div>
+            </form>
+          </div>
+
+          <div id="map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0146694792675!2d-79.9644896!3d-2.148070200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses-419!2sec!4v1653751745205!5m2!1ses-419!2sec" 
+              width="450" 
+              height="300" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+      </section>
+
+      <section>
+        <!-- Sigueme -->
+        <div id="end_image_container" >
+          <img 
+            id="end_picture" 
+            src="https://thumbs.dreamstime.com/b/icono-ejecutivo-joven-del-perfil-de-la-mujer-81933191.jpg"
+            height="100px"
+            width="100px"
+            >
+        </div>
+
+        <div id="social_media_section">
+          <div id="twitter_block">
+            <i class="fab fa-twitter"></i>
+          </div>
+
+          <div id="instagram_block">
+            <i class="fab fa-instagram"></i>
+          </div>
+
+          <div id="linkedin_block">
+            <i class="fab fa-linkedin"></i>
+          </div>
+
+          <div id="facebook_block">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+
+    <footer>
+      
+    </footer>
+
+  </body>
+
+</html>
