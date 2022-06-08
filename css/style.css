@@ -1,3 +1,31 @@
 *{
   font-family: "Ubuntu", sans-serif;
 }
+
+/*
+  */
+#menu_list {
+  list-style-type:none;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+#menu_list li{
+  padding-right: 1rem;
+}
+
+section.principal_view {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+#profile_picture{
+  border-radius: 20% 40% 20% 40%;
+}
+
+#profile_info_container {
+  padding-left: 3rem;
+  text-align: center;
+}
