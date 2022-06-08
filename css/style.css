@@ -54,3 +54,17 @@ div.abilities_container{
   box-shadow: 0px 30px 50px -25px #ad3500;
   text-align: center;
 }
+
+div.progress_block{
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+#card2{
+  margin: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 30px 50px -25px #ad3500;
+}
