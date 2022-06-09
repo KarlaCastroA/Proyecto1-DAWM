@@ -1,6 +1,8 @@
 *{
   font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
 }
+
 
 #menu_list {
   list-style-type:none;
@@ -10,13 +12,99 @@
 }
 
 #menu_list li{
-  padding-right: 1rem;
+  padding-right: 7rem;
+  color: white;
 }
 
 section.principal_view {
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  height: 40rem;
+  width: 100%;
+  background-image: url("https://st4.depositphotos.com/36604282/41273/i/450/depositphotos_412735102-stock-photo-stars-sky-starry-night-starlight.jpg");
+  background-size: contain;
+}
+
+section.principal_view p, h1{
+  color: white;
+}
+
+section.principal_view h1{
+  font-size: 40px;
+}
+
+div.contenedor1{
   display: flex;
   flex-direction: row;
-  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#about_me{
+  padding: 4rem;
+}
+
+#profile_picture{
+  padding: 4rem;
+  height: 25rem;
+  width: 25rem;
+}
+
+/* Animacion de pagina principal */
+.waves {
+  position: absolute;
+/*      left: 0;
+  right: 0;
+  height: 200px;
+  bottom: 0;*/
+  bottom: -135px;
+  height: 527px;
+  width: 100%;
+  overflow: hidden;
+}
+.wave {
+  position: absolute;
+  left: -180px;
+  bottom: 0;
+  /*width: 200px;*/
+  /*height: 200px;*/
+  /*width: 100%;*/
+  /*border-radius: 50%;*/
+  /*background:rgba(0,0,0, .3);*/
+  width: 2402px;
+  height: 427px;
+  background: url(https://static.platzi.com/media/files/waves_c8551f5d-ecf6-4a81-ae1d-f3a0ad55ba10.png) center bottom no-repeat;
+  animation: 5s wave ease-in-out infinite alternate;
+}
+.wave.a {
+  background-position: 0 -854px;
+}
+.wave.b {
+  background-position: 0 -427px;
+  animation-delay: .6s;
+}
+.wave.c {
+  background-position: 0 0;
+  animation-delay: 1.2s;
+}
+/*.container {
+  position: absolute;
+}*/
+@keyframes wave {
+  0% {
+    transform: translate(0 , 0);
+  }
+  50% {
+    transform: translate(-80px, 30px);
+  }
+  100% {
+    transform: translate(160px, -60px);
+  }
+}
+
+#profile_image_container{
+  padding: 3rem;
 }
 
 #profile_picture{
@@ -24,7 +112,7 @@ section.principal_view {
 }
 
 #profile_info_container {
-  padding-left: 3rem;
+  padding: 3rem;
   text-align: center;
 }
 
@@ -35,7 +123,7 @@ section.principal_view {
 }
 
 section.abilities_view {
-  background-color: pink;
+  background-color: #FEE2c5;
 }
 
 div.abilities_container{
@@ -77,13 +165,27 @@ td {
   border: 1px solid #000;
 }
 
+section.contact{
+  position: relative;
+  background-color: #A6CF98;
+}
+
+/*
+#triangle-bottomleft {
+  position: absolute;
+  width:0; 
+  height:0; 
+  border-bottom:400px solid white; 
+  border-right:400px solid transparent;
+} 
+*/
 div.contact_block{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-#form_map, #works_table_container{
+#form_map, #works_table_container, #end_image_container{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -96,4 +198,9 @@ input, textarea {
   padding-bottom: 1rem;
 }
 
+#social_media_section{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  padding: 10%;
+}
 
