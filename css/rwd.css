@@ -1,0 +1,16 @@
+/* Smartphones (portrait and landscape) ———– */
+@media only screen and (min-device-width: 320px) and (max-device-width: 528px) {
+	/* Styles */
+	* {
+		font-size: 10vw;
+	}
+
+  body{
+    display: inline-block;
+    height: 100px;
+  }
+
+	section {
+		background: yellow;
+	}
+}

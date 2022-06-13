@@ -10,9 +10,15 @@
   justify-content: right;
 }
 
+ul{
+  padding:0;
+  margin:0;
+}
 #menu_list li{
   padding: 3rem;
   color: white;
+  display: inline-block;
+  height: 100px;
 }
 
 section.principal_view {
@@ -191,7 +197,7 @@ section.contact{
 }
 
 #contact_section {
-  display: flex;
+  display: inline-block;
   flex-direction: row;
   justify-content: start;
   padding-left: 5rem;
