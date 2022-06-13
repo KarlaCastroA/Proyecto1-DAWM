@@ -3,7 +3,6 @@
   font-size: 20px;
 }
 
-
 #menu_list {
   list-style-type:none;
   display: flex;
@@ -37,7 +36,6 @@ section.principal_view h1{
 div.contenedor1{
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
 }
 
@@ -159,10 +157,25 @@ table{
   padding: 2rem;
   width: 90%;
   text-align: center;
+  margin-bottom: 1.25em;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table tr.even,
+table tr.alt,
+table tr:nth-of-type(even) {
+  background: #f9f9f9;
 }
 
 td {
   border: 1px solid #000;
+}
+
+#work-logo{
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 section.contact{
@@ -179,6 +192,16 @@ section.contact{
   border-right:400px solid transparent;
 } 
 */
+
+#card3, #map{
+  background: white;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 0px 30px 50px -25px #FAF0D7;
+  text-align: center;
+  background-color: transparent;
+}
+
 div.contact_block{
   display: flex;
   flex-direction: row;
@@ -195,8 +218,16 @@ div.contact_block{
 input, textarea {
   border: 0px;
   border-radius: 5px;
-  padding-bottom: 1rem;
+  padding: 0.2rem;
+  background-color:#C4DDFF;
+  margin: 0.1rem;
+  
 }
+
+div.button{
+  text-align: center;
+}
+
 
 #social_media_section{
   display: grid;
@@ -204,3 +235,8 @@ input, textarea {
   padding: 10%;
 }
 
+section.follow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
