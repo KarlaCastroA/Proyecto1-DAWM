@@ -13,5 +13,20 @@
     display: block;
   }
 
+  div.contact_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #form_map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .formulario{
+    height: 15%;
+  }
 }
 
