@@ -5,19 +5,13 @@
 		font-size: 10vw;
 	}
 
-  body{
-    display: inline-block;
-    height: 100px;
-  }
-
+ 
   .profile_image_container{
     width: 30%;
     margin-left: auto;
     margin-right: auto;
     display: block;
+  }
+
 }
 
-	section {
-		background: yellow;
-	}
-}
