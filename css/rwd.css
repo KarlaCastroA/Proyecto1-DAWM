@@ -2,21 +2,14 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 528px) {
 	/* Styles */
 	* {
-		font-size: 10vw;
+		font-size: 5vw;
 	}
 
- 
   .profile_image_container{
     width: 30%;
     margin-left: auto;
     margin-right: auto;
     display: block;
-  }
-
-  div.contact_block{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
   }
 
   #form_map{
@@ -25,8 +18,14 @@
     justify-content: center;
   }
 
-  .formulario{
-    height: 15%;
+  div.contact_block{
+    flex-direction: column;
+    margin: 3rem;
+  }
+
+  #map{
+    width: 90%;
+    height: 100%;
   }
 }
 
