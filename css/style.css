@@ -99,6 +99,11 @@ div.abilities_container{
   text-align: center;
 }
 
+#card:hover{
+  box-shadow: 0px 50px 75px -25px #ad3500;
+  top: -20px;
+}
+
 div.progress_block{
   margin: 1rem;
   text-align: center;
