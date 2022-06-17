@@ -5,6 +5,11 @@
 		font-size: 5vw;
 	}
 
+  div.contenedor1{
+    display: flex;
+    flex-direction: column;
+  }
+
   .profile_image_container{
     width: 30%;
     margin-left: auto;
