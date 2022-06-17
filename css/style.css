@@ -10,9 +10,12 @@
   justify-content: right;
 }
 
-#menu_list li{
+
+nav li{
+  display: inline-block;
   color: white;
-  padding-left: 1rem;
+  line-height: 80px;
+  margin: 0 5px;
 }
 
 header{
@@ -20,19 +23,6 @@ header{
   height: 3rem;
 }
 
-.checkbtn{
-  font-size: 30px;
-  color: #fff;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-
-#check{
-  display: none;
-}
 
 section.principal_view {
   background-image: url("https://st4.depositphotos.com/36604282/41273/i/450/depositphotos_412735102-stock-photo-stars-sky-starry-night-starlight.jpg");

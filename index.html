@@ -32,38 +32,37 @@
     
     <main>
 
-      <section class="principal_view">
+      <section class="principal_view" >
         <header>
-          <div class="responsive-bars">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-              <i class="fas fa-bars"></i>
-            </label>
-          </div>
+          
 
           <nav class="main_menu">
             <!-- Opciones x ej, Perfil, Trabajos Realizados, Posts, Contacto-->
             <ul id="menu_list" >
-              <li>Principal</li>
-              <li>Habilidades</li>
-              <li>Trabajos</li>
-              <li>Contacto</li>
-              <li>Sigueme!</li>
+              <li> <a href="#Principal">Principal</a></li>
+              <li> <a href="#Habilidades"> Habilidades </a> </li>
+              <li> <a href="#Trabajos"> Trabajos </a> </li>
+              <li> <a href="#Contacto"> Contacto </a> </li>
+              <li> <a href="#Sigueme!"> Sigueme! </a> </li>
             </ul>  
           </nav>
         </header>
         
         <!-- Principal-->
         <div class="contenedor1">
-          <div id="profile_image_container" >
-            <img 
-              id="profile_picture" 
-              src="image/principal-KarlaCastro.jpg"
-              >
-          </div>
+          <a id="Principal">
+            <div id="profile_image_container" >
+              <img 
+                id="profile_picture" 
+                src="image/principal-KarlaCastro.jpg"
+                >
+            </div>
+          </a>
           
           <div id="profile_info_container">
+           
             <h1>Karla Castro Ascencio</h1>
+            
           
             <p id="about_me">
               <!-- Presentacion personal
@@ -72,20 +71,14 @@
             </p>
           </div>
         </div>
-
-        <!-- Elementos de Animacion en pagina principal-->
-        <div class="waves">
-          <div class="wave circulo a"></div>
-          <div class="wave circulo b"></div>
-          <div class="wave circulo c"></div>
-        </div>
-
       </section>
 
-      <section class="abilities_view">
+      <section class="abilities_view" >
         <!-- Habilidades y conocimientos-->
         <div id="sections_abilities">
-          <p id="abilities">Habilidades</p>
+          <a id="Habilidades">
+            <p id="abilities">Habilidades</p>
+          </a>
         </div>
         
         <div class="abilities_container">
@@ -148,7 +141,7 @@
         </div>
       </section>
 
-      <section class="works">
+      <section class="works" id="Trabajos">
         <div id="works_section">
           <p id="works">Trabajos</p>
         </div>
@@ -195,7 +188,7 @@
         </div>
       </section>
 
-      <section class="contact">
+      <section class="contact" id="Contacto">
         <!-- Contacto -->
         <div id="contact_section">
           <p id="contact">Contacto</p>
@@ -278,23 +271,31 @@
     </main>
 
 
-    <footer>
+    <footer id="Sigueme!">
       <div id="social_media_section">
-        <div class="sm-elements" id="twitter_block">
-          <i class="fab fa-twitter"></i>
-        </div>
+        <a href="https://twitter.com/kycastro_a">
+          <div class="sm-elements" id="twitter_block">
+            <i class="fab fa-twitter"></i>
+          </div>
+        </a>
 
-        <div class="sm-elements" id="instagram_block">
-          <i class="fab fa-instagram"></i>
-        </div>
+        <a href="https://www.instagram.com/kycastroa/">
+          <div class="sm-elements" id="instagram_block">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </a>
 
-        <div class="sm-elements" id="linkedin_block">
-          <i class="fab fa-linkedin"></i>
-        </div>
+        <a href="https://ec.linkedin.com/in/karla-castro-717670185">
+          <div class="sm-elements" id="linkedin_block">
+            <i class="fab fa-linkedin"></i>
+          </div>
+        </a>
 
-        <div class="sm-elements" id="facebook_block">
-          <i class="fab fa-facebook-f"></i>
-        </div>
+        <a href="https://www.facebook.com/profile.php?id=100029093645588">
+          <div class="sm-elements" id="facebook_block">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+        </a>
 
       </div>
     </footer>
